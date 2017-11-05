@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/jasmine-node *.spec.js"
+    "test": "./node_modules/.bin/jasmine-ts *.spec.ts"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/tumit/js-ts-unit-testing#readme",
   "devDependencies": {
-    "jasmine-node": "^1.14.5"
+    "@types/node": "^8.0.47",
+    "@types/jasmine": "^2.6.2",
+    "jasmine": "^2.8.0",
+    "jasmine-core": "^2.8.0",
+    "jasmine-node": "^1.14.5",
+    "jasmine-ts": "^0.2.1"
   }
 }
